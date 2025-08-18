@@ -43,6 +43,10 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-cov",
+]
 dev = [
     "ruff",
     "mypy",
